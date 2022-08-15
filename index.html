@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Brendan's Personal Site</title>
+</head>
+
+<body>
+  <table>
+    <td><img src="https://upload.wikimedia.org/wikipedia/en/5/52/Eleven_%28Stranger_Things%29.jpg" alt="Eleven"></td>
+    <td><h1>Brendan Yeo</h1>
+    <!--Strong element, a href added!-->
+    <p><i>Security Consultant</i> <strong><em>CIPR, CPSA, PCI ASV @<a href="https://www.procheckup.com/"><i>ProCheckUp</i></a></em></strong></p>
+    <p>I am a security consultant working for ProCheckUp specialising in ........</p></td>
+  </table>
+
+
+  <hr>
+  <h3><b>The things I do</b></h3>
+  <ul>
+    <!--ul is unordered list (random) -->
+    <li>Web Application test</li>
+    <li>Infrastructure test</li>
+    <li>ASV</li>
+  </ul>
+  <h3><a href="MyQualifications.html">Qualifications</a></h3>
+  <h3>Write-ups</h3>
+  <ul>
+    <li>
+      <a href="https://www.procheckup.com/blogs/posts/2022/may/cyber-threat-intelligence/">Threat Intelligence</a>
+    </li>
+  </ul>
+  <h3><a href="Contact.html">Get in touch?</a></h3>
+  <hr>
+  <h3>Professional Experience</h3>
+  <!-- below sample is not appropriate when it comes to the proper arrangment or formatting of listed items in an aligned manner -->
+  <h4>Sample "table" below is not a proper table. Below uses p tag.</h4>
+  <p>2018-2019 Junior SAP security</p>
+  <p>2019-2021 Security Engineer and Consultant</p>
+  <p>2021-Current Security Consultant (Pen-test)</p>
+
+  <!-- proper one as follows-->
+  <!-- use table tag for creating a table, tr tag for table row and td for table data where data is populated into a cell-->
+  <h4>Sample table below is  a proper table.</h4>
+  <table cellspacing="10">
+    <!--Now, table also has a header, body and footer. Has to be inside the table-->
+    <thead>
+      <!--so instead of using td to populate data into the header, use th instead. HEADER CELLS inside the thead-->
+      <tr>
+        <th>Year</th>
+        <th>Position</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <!--contents of the table - place it in the tbody-->
+      <!--this is table row 1-->
+      <tr>
+        <td>2018-2019</td>
+        <td>Junior SAP security</td>
+      </tr>
+      <!--this is table row 2-->
+      <tr>
+        <td>2019-2021</td>
+        <td>Security Engineer and Consultant</td>
+      </tr>
+      <!--this is table row 3-->
+      <tr>
+        <td>2021-Current</td>
+        <td>Security Consultant (Pen-test)</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+
+    </tfoot>
+
+  </table>
+
+  <hr>
+
+  <h3>Skills</h3>
+  <table cellspacing="10">
+      <thead>
+        <tr>
+          <th>Description</th>
+          <th>Rating</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Web application test</td>
+          <td>❤❤❤</td>
+        </tr>
+
+        <tr>
+          <td>Network Infra test</td>
+          <td>❤❤❤</td>
+        </tr>
+
+        <tr>
+          <td>Data analytics</td>
+          <td>❤❤❤</td>
+        </tr>
+
+      </tbody>
+  </table>
+
+
+
+
+</body>
+
+</html>
